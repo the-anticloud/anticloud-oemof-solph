@@ -1,0 +1,95 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:9f4c583d-3c3f-5174-83e4-deb82036fc51",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:24:09Z",
+    "component": {
+      "type": "application",
+      "name": "OEMOF_SOLPH",
+      "version": "943c057da744",
+      "bom-ref": "pkg:generic/anticloud/OEMOF_SOLPH@943c057da744",
+      "purl": "pkg:generic/anticloud/OEMOF_SOLPH@943c057da744",
+      "licenses": [
+        {
+          "license": {
+            "id": "NOASSERTION"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "943c057da7445e971750e95130c2e9b0158ce20d"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/oemof/oemof-solph"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "blinker",
+      "version": "unspecified",
+      "purl": "pkg:pypi/blinker",
+      "bom-ref": "pypi/blinker@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dill",
+      "version": "unspecified",
+      "purl": "pkg:pypi/dill",
+      "bom-ref": "pypi/dill@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=",
+      "purl": "pkg:pypi/numpy@",
+      "bom-ref": "pypi/numpy@>="
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": ">=",
+      "purl": "pkg:pypi/pandas@",
+      "bom-ref": "pypi/pandas@>="
+    },
+    {
+      "type": "library",
+      "name": "pyomo",
+      "version": ">=",
+      "purl": "pkg:pypi/pyomo@",
+      "bom-ref": "pypi/pyomo@>="
+    },
+    {
+      "type": "library",
+      "name": "networkx",
+      "version": "unspecified",
+      "purl": "pkg:pypi/networkx",
+      "bom-ref": "pypi/networkx@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "oemof.tools",
+      "version": ">=",
+      "purl": "pkg:pypi/oemof.tools@",
+      "bom-ref": "pypi/oemof.tools@>="
+    },
+    {
+      "type": "library",
+      "name": "oemof.network",
+      "version": ">=",
+      "purl": "pkg:pypi/oemof.network@",
+      "bom-ref": "pypi/oemof.network@>="
+    }
+  ]
+}
